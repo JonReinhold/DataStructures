@@ -5,7 +5,7 @@ class Queue:
         self.count = 4
 
     def enqueue(self, x):
-        self.queue.insert(0,x)
+        self.queue.insert(len(self.queue),x)
         self.count += 1
 
     def dequeue(self):
@@ -13,7 +13,7 @@ class Queue:
         return self.queue.pop()
 
     def peek(self):
-        return self.queue[0]
+        return self.queue[-1]
 
     def empty(self):
         return self.count == 0
@@ -24,12 +24,12 @@ class Queue:
 def main():
 	q = Queue()
 	q.enqueue(5)
+	print(q.queue)
 	print(q.peek())
 	print(q.size())
 	for i in range(0,5):
 		q.dequeue()
-	print(q.empty())
-
-	
+		print(q.queue)
+	return q.empty
 
 print(main())
