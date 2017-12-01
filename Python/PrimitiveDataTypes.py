@@ -1,5 +1,4 @@
 #Primitive types 
-
 booleanX = True 
 floatX = 2.0
 intX = 2
