@@ -1,7 +1,7 @@
 #Primitive types 
 booleanX = True 
-floatX = 2.0
-intX = 2
+floatX = 1.1
+intX = 1
 stringX = "string..."
 
 #array
