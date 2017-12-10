@@ -1,5 +1,13 @@
 #include<stdio.h>
 
 int main(void)
-{boolean 
+{bool boolX;
+ float floatX;
+ int intX;
+ 
+ boolX = true;
+ floatX = 1.1;
+ intX =1;
+ 
+ 
 }
