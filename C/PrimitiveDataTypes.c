@@ -9,5 +9,4 @@ int main(void)
  floatX = 1.1;
  intX =1;
  
- 
 }
